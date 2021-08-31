@@ -5,10 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: src/Index
-  label: Home
+  path: src/Aktuelles
+  label: Aktuelles
   create: documents
   match: "**/*"
+  templates:
+  - aktuelles
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

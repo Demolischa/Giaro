@@ -1,6 +1,11 @@
 ---
 label: Aktuelles
 hide_body: true
-fields: []
+fields:
+- name: aktuelles
+  type: text
+  config:
+    required: false
+  label: Aktuelles
 pages:
 - src/Aktuelles/Aktuelles.md

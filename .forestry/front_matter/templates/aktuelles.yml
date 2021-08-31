@@ -2,3 +2,5 @@
 label: Aktuelles
 hide_body: true
 fields: []
+pages:
+- src/Aktuelles/Aktuelles.md
